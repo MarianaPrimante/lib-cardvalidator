@@ -1,5 +1,5 @@
-let lib = require("../lib/index");
-let expect = require("chai").expect;
+const lib = require("../lib/index");
+const expect = require("chai").expect;
 
 describe("cardValidator", () => {
   it("valid", () => {

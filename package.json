@@ -3,12 +3,10 @@
   "version": "1.0.0",
   "description": "Esta biblioteca se destina à validação de cartões de crédito para uso em aplicações web",
   "main": "index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "eslint": "eslint index.js",
+    "format": "prettier",
+    "test": "nyc mocha"
   },
   "repository": {
     "type": "git",
@@ -21,9 +19,7 @@
   },
   "homepage": "https://github.com/MarianaPrimante/lib-cardvalidator#readme",
   "devDependencies": {
-    "eslint": "^5.16.0"
-  },
-  "dependencies": {
+    "eslint": "^5.16.0",
     "chai": "^4.2.0",
     "mocha": "^6.1.4",
     "nyc": "^14.0.0"

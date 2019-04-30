@@ -7,7 +7,7 @@ Na versão atual é capaz de validar um número de cartão de crédito digitado,
 
 ```shell
 
-$  npm install lib-cardvalidator
+$  npm install lib-cardvalidatormp
 
 ```
 
@@ -15,9 +15,11 @@ $  npm install lib-cardvalidator
 
 ```node
 
-> const cardValidator = require("lib-cardvalidator");
-> console.log(cardValidator('5155901285384518'))
+> const test = require("lib-cardvalidator");
+> test.cardValidator('5155901285384518'))
 > // returns "true"
+> test.cardValidator('123456789123456a'))
+> // returns "false"
 
 ```
 

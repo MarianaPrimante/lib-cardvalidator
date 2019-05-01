@@ -1,6 +1,6 @@
 {
   "name": "lib-cardvalidatormp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Esta biblioteca se destina à validação de cartões de crédito para uso em aplicações web",
   "main": "index.js",
   "scripts": {

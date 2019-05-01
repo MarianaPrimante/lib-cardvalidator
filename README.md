@@ -15,7 +15,7 @@ $  npm install lib-cardvalidatormp
 
 ```node
 
-> const test = require("lib-cardvalidator");
+> const test = require("lib-cardvalidatormp");
 > test.cardValidator("5155901285384518")
 > // returns "true"
 > test.cardValidator("123456789123456a")

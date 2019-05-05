@@ -12,6 +12,10 @@
     "type": "git",
     "url": "git+https://github.com/MarianaPrimante/lib-cardvalidator.git"
   },
+  "keywords": [
+    "card",
+    "validator"
+  ],
   "author": "Mariana Primante Costa",
   "license": "ISC",
   "bugs": {
